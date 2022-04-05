@@ -157,7 +157,6 @@ func main() {
 		return
 	}
 	bounds := img.Bounds()
-	fmt.Printf("Bounds: %d %d\n", bounds.Dx(), bounds.Dy())
 
 	outImg := image.NewNRGBA(image.Rectangle{
 		Min: bounds.Min,
