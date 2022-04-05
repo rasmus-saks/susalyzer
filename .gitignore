@@ -1,4 +1,5 @@
-*.png
+!docs/**
+/*.png
 .idea/**
 *.iml
 susalyzer
